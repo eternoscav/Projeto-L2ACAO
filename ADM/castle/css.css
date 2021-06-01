@@ -1,0 +1,9 @@
+<?
+$host_banco    = "localhost";
+         $usuario_banco = "root";
+         $senha_banco   = "3427821";
+         $nome_banco    = "l2acaopvp";
+         $conexao_banco = @mysql_connect($host_banco,$usuario_banco,$senha_banco) or die(mysql_error());
+                          @mysql_select_db($nome_banco,$conexao_banco) or die(mysql_error());
+
+?>

@@ -1,0 +1,15 @@
+<?php
+error_reporting(0);
+$servidor = 'localhost';	// MySQL HOST
+$usuario = 'root';			// MySQL Login
+$senha = '3427821';				// MySQL Senha
+$db = 'l2acaopvp';				// L2JDB
+$ip = 'l2acao.ddns.com.br';			// MySQL IP
+
+$con = mysql_connect($servidor, $usuario, $senha) or die(mysql_error());
+mysql_select_db($db, $con) or die(mysql_error());
+
+include ("configs/anti-inject-base64.php");
+include ("configs/anti_inject.php");
+// Edição Total do Layout por: Llairenm Ilai - ©Madjirus
+?>

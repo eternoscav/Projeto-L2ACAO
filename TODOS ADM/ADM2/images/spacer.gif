@@ -1,0 +1,18 @@
+<?php
+/*
+     CREDTIOS: William Silveira aka: WilliamArcher
+     ESTE SCRIPT É SOMENTE PARA O www.l2jbrasil.com!
+	 CASO PEGOU EM OUTRO FORUM DENUNCIE NO FORUM L2JBRASIL!
+*/
+	include "../config.php";
+	$id        = $_GET['id'];
+	$id_char   = $_GET['id_char'];
+		
+	$sql = mysql_query("DELETE FROM items WHERE item_id = '$id' AND owner_id = '$id_char'");
+	echo "<script>alert('Item deletado com sucesso.');location.href='items.php?id=$id_char'</script>";
+/*
+     CREDTIOS: William Silveira aka: WilliamArcher
+     ESTE SCRIPT É SOMENTE PARA O www.l2jbrasil.com!
+	 CASO PEGOU EM OUTRO FORUM DENUNCIE NO FORUM L2JBRASIL!
+*/
+?>

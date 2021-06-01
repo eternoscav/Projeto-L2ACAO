@@ -1,0 +1,104 @@
+/* Designed por Llairenm Ilai ©Madjirus */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #b0b0ae;
+	background-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+/*--- ---*/
+img { border: none; }
+img.arrow { padding: 0 2px; }
+ul, ol { list-style: none; }
+h3 { color: #9fc515; }
+a {
+	color: #d8e0e0;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff7700;
+	text-decoration: none;
+}
+.error {
+	color: #ff0000;
+	font-weight: bold;
+}
+.confirm {
+	color: #ffff00;
+	font-weight: bold;
+}
+/*--- Criar Conta / Mudar senha ---*/
+#reg_geral {
+	color: #9FC515;
+	text-align: center;
+	padding: 10px 0 0 10px;
+	width: 230px;
+}
+#reg_geral h3 { font-size: 140%; }
+#reg_geral p.stylec {
+	text-align: center;
+	color: #ff0000;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+#reg_geral ul#reg_form { height: 100%; }
+#reg_geral ul#reg_form li.block {
+	width: 100%;
+	height: 3px;
+	clear: both;
+}
+#reg_geral ul#reg_form li {
+	display: block;
+	float: left;
+	width: 113px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+}
+#reg_geral input:focus { border: 1px #ff7700 solid; }
+/* estilos inputs */
+#user, .pass { color: #80a300; }
+input#user {
+	background: #ebfceb url('../img/icon_user.gif') no-repeat left;
+	border: 1px #9FC515 dashed;
+	padding-left: 20px;
+	width: 113px;
+	height: 20px;
+	font-weight: bold;
+}
+input.pass {
+	background: #ebfceb url('../img/icon_padlock.gif') no-repeat left;
+	border: 1px #9FC515 dashed;
+	padding-left: 20px;
+	width: 113px;
+	height: 20px;
+	font-weight: bold;
+}
+div#check {
+	width: 100%;
+	text-align: left;
+	clear: both;
+	padding: 5px 0;
+}
+div#botao {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+.botao {
+	padding-bottom:  3px;
+	margin-top: 10px;
+	width: 85px;
+	height: 25px;
+	font-size: 12px;
+}
+/*--- confirmação ---*/
+#confirmacao {
+	text-align: center;
+	padding-top: 5px;
+}
+/* Designed por Llairenm Ilai ©Madjirus*/

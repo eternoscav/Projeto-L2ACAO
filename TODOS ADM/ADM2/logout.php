@@ -1,0 +1,7 @@
+ESTE PAINEL!! FOI FEITO POR MIM (WILLIAM SILVEIRA AKA: WilliamArcher)
+----------------------------------------------------------------------
+A DISTRIBUIÇÃO DESTE PAINEL SEM A MINHA AUTORIZAÇÃO É PROIBIDA!!!!
+
+ESTE PAINEL É SOMENTE PARA O FORUM www.l2jbrasil.com !!!
+
+CASO VC BAIXOU DE OUTRO LUGAR DENUNCIE NO FORUM L2jBRASIL!!!

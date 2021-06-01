@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* Designed por Llairenm Ilai ©Madjirus*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #b0b0ae;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+/*--------------------------- ---------------------------*/
+img { border: none; }
+img.arrow { padding: 0 2px; }
+ul, ol { list-style: none; }
+.clear { clear: both; }
+.separador { padding: 5px 0; }
+.info_cl { color: #d8e0e0; }
+.h_par {
+	color: #9fc515;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 18px;
+}
+.r_float {
+	color: #9e9e9e;
+	float: right;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.red { color: #f00; }
+span.on {
+	color: #0f0;
+	font-weight: bold;
+}
+span.off {
+	color: #f00;
+	font-weight: bold;
+}
+div.clear { clear: both; }
+.title_y { color: #ff0; }
+/*--------------------------- links ---------------------------*/
+a {
+	color: #d8e0e0;
+	text-decoration: none;
+}
+a:hover {
+	color: #f70;
+	text-decoration: none;
+}
+a.voltar { display: none; }
+#geral {
+	width: 864px;
+	margin: 0 auto;
+}
+/*--------------------------- cabecalho ---------------------------*/
+#cabecalho { /*background: url(img/bg.jpg);*/
+	height: 200px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 300%;
+	position: relative;
+}
+#cabecalho h1 {
+	color: #222224;
+	font-size: 150px;
+	position: absolute;
+	left: 9px;
+	top: 15px;
+}
+#cabecalho h2.sombra {
+	color: #000;
+	position: absolute;
+	left: 34px;
+	bottom: 18px;
+	font-size: 76px;
+}
+#cabecalho h2.frente {
+	color: #9fc515;
+	position: absolute;
+	left: 32px;
+	bottom: 20px;
+	font-size: 76px;
+}
+/*--------------------------- coluna_esquerda ---------------------------*/
+#coluna_esquerda {
+	width: 151px;
+	float: left;
+}
+/*--------------------------- div_box ---------------------------*/
+.box_1 {
+	width: 151px;
+	margin: 0 auto;
+}
+.box_1 p {
+	padding: 5px 0 0 0;
+	text-align: center;
+	line-height: 23px;
+}
+.div_box {
+	background: url(../img/div_box.png);
+	color: #9fc515;
+	width: 151px;
+	height: 23px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 23px;
+}
+/*--------------------------- list_topo ---------------------------*/
+.list_topo {
+	background: url(../img/box_topx.png);
+	height: 42px;
+	text-align: center;
+}
+.list_meio { background: url(../img/box_midx.png) top repeat-y; }
+ul.meio_ul { padding: 5px 10px; }
+.list_meio ul#nav li {
+	background: url(../img/arrow.gif) left no-repeat;
+	padding-left: 9px;
+}
+.list_meio ul#nav li a { display: block; width: 100%; }
+#list_rod {
+	background: url(../img/box_botx.png);
+	height: 7px;
+}
+/*--------------------------- corpo ---------------------------*/
+#corpo {
+	width: 554px;
+	float: left;
+	padding: 0 3px;
+}
+/*--------------------------- topo_corpo ---------------------------*/
+#topo_corpo {
+	background: url(../img/dec_top_b.png);
+	height: 42px;
+}
+#topo_corpo { text-indent: 10px; }
+#meio_corpo { background: url(../img/dec_mid_b.png) top repeat-y; }
+#meio_corpo p { padding: 5px 10px; }
+#meio_corpo h3 {
+	padding: 5px 10px;
+	font-size: 140%;
+	color: #f70;
+}
+#rod_corpo {
+	background: url(../img/dec_bot_b.png);
+	height: 14px
+}
+/*--------------------------- coluna_direita ---------------------------*/
+#coluna_direita {
+	width: 151px;
+	float: left;
+}
+/*--------------------------- pulldown ---------------------------*/
+div#main {
+	width: 135px;
+	margin: 0 auto;
+	text-align: center;
+}
+ul#m_nav { margin: 0 auto; }
+ul#content {
+	width: 129px;
+	display: none;
+	margin: 0 auto;
+}
+ul#content li { height: 21px; }
+ul#content li.topo { height: 22px; }
+/*--------------------------- ranking geral ---------------------------*/
+#rank_geral {
+	width: 534px;
+	color: #fff;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+#rank_geral ul li {
+	display: block;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 2px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+ul#topo_rank li {
+	background-color: #000000;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	border-top: 1px #9fc515 dashed;
+}
+ul#list_rank li {
+	background-color: #232324;
+	border-bottom: 1px #9fc515 dashed;
+}
+/*--- ranking geral tamanho das listas ---*/
+/* posição */
+#rank_geral ul li.posicao {
+	width: 58px;
+	border-left: 1px #9fc515 dashed;
+	text-align: center;
+}
+/* nome */
+#rank_geral ul li.nome {
+	width: 160px;
+	border-left: 1px #9fc515 dashed;
+}
+/* ranking */
+#rank_geral ul li.ranking {
+	width: 109px;
+	border-left: 1px #9fc515 dashed;
+}
+/* clan */
+#rank_geral ul li.clan {
+	width: 190px;
+	border-left: 1px #9fc515 dashed;
+	border-right: 1px #9fc515 dashed;
+}
+/*--- ranking geral tamanho das listas heros ---*/
+#rank_geral ul li.nomej {
+	width: 160px;
+	border-left: 1px #9fc515 dashed;
+}
+/* nome */
+#rank_geral ul li.level {
+	width: 43px;
+	border-left: 1px #9fc515 dashed;
+}
+/* ranking */
+#rank_geral ul li.classe {
+	width: 140px;
+	border-left: 1px #9fc515 dashed;
+}
+/* clan */
+#rank_geral ul li.clanh {
+	width: 130px;
+	border-left: 1px #9fc515 dashed;
+}
+#rank_geral ul li.vezes {
+	width: 45px;
+	border-left: 1px #9fc515 dashed;
+	border-right: 1px #9fc515 dashed;
+}
+/*--------------------------- downloads geral ---------------------------*/
+#dl_geral {
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 10px 0;
+	text-align: center;
+}
+#dl_geral ul.down_l { padding: 20px 0; }
+#dl_geral ul.down_l p { padding: 10px; }
+#dl_geral ul.down_l li {
+	display: block;
+	float: left;
+	border: 1px #9fc515 dashed;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#dl_geral ul.down_l li.dl_cont {
+	width: 294px;
+	height: 50px;
+}
+#dl_geral ul.down_l li.dl_link {
+	width: 50px;
+	height: 50px;
+	margin-left: 1px;
+}
+#dl_geral ul.down_l li.dl_link img { padding-top: 4px; }
+/*--------------------------- rodape ---------------------------*/
+#rodape {
+	background: url(../img/rod_bg.gif) repeat-x;
+	width: 100%;
+	height: 26px;
+	margin-top: 25px;
+	line-height: 26px;
+	text-align: center;
+	clear: both;
+}
+#rodape a#copyright {
+	background: url(../img/sign_copyright.png) left center no-repeat;
+	padding-left: 20px;
+}
+#rodape ul#imgs li.espimg { width: 10px; }
+#rodape ul#imgs li { display: inline; }
+/* Designed por Llairenm Ilai ©Madjirus*/
+/* castle siege ------------------------ */
+.cs_table {
+	width: 554px;
+	padding: 10px;
+	color: #fff;
+}
+.cs_table li {
+	display: block;
+	float: left;
+}
+.cs_table li.title_cs {
+	width: 100%;
+	text-align: center;
+}
+.cs_table h3 {
+	padding: 5px 10px;
+	font-size: 140%;
+	color: #f70;
+}
+.cs_table li.img_castle {
+	margin: 0 1px;
+	float: left;
+}
+li.data_cs, li.data_cs, li.dono_cs, li.tax_cs, li.atac_cs, li.def_cs {
+	line-height: 18px;
+	padding: 0 2px;
+	margin: 1px 1px;
+	border: 1px #9fc515 dashed;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.cs_table li.espaco {
+	width: 380px;
+	height: 11px;
+}
+.cs_table li.data_cs { width: 150px; }
+.cs_table li.dono_cs { width: 130px; }
+.cs_table li.tax_cs { width: 80px; }
+.cs_table li.atac_cs { width: 205px; }
+.cs_table li.def_cs { width: 163px; }
+/* Designed por Llairenm Ilai ©Madjirus*/

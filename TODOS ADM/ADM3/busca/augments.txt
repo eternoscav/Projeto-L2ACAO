@@ -1,0 +1,12 @@
+#1	957222377 3135 10  Active: Increases P. Def
+#2	956567019 3125 10  Active: Battle Roar Increases the maximum HP temporarily
+#3	962596330 3141 10  Active: Increases the chance of a critical attack temporarily
+#4	957418984 3134 10  Active: Increases PVP P. Atk. temporarilyActive: Increases PVP P. Atk. temporarily
+#5	956436001 3133 10  Active: Increases M. Atk. temporarily
+#6	955583974 3130 10  Active: Regenerates CP
+#7	962137602 3140 10  Active: Increases Accuracy temporarily
+#8	957091343 3132 10  Active: Increases P. Atk. temporarily
+#9	955452943 3139 10  Active: Increases Dodge temporarily
+#10	956763681 3136 10  Active: Increases M. Def. temporarily
+#11	956698155 3128 10  Active: Increases the maximum HP temporarily
+#12	963055134 3142 10  Active: Increases the critical attack rate of magic attacks temporarily

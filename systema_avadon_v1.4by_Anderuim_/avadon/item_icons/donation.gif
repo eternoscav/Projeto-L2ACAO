@@ -1,0 +1,15 @@
+EDITAR ALLY DO CLAN
+
+<?php
+$link= mysql_connect($db_loc_ip,$server_log,$server_psw) or die('Erro ao conectar no MySQL');
+mysql_select_db($server_db,$link) or die('Erro na base');
+
+echo "<form action=\"./principal.php?t=editallynamesave.php\" method=\"POST\">
+Nome atual da Ally: <input type=\"text\" name=\"clanAlly\" value=\"{$_POST['clanAlly']}\">
+<input type=\"hidden\" name=\"clanAllyAnt\" value=\"{$_POST['clanAlly']}\">
+<input type=\"hidden\" name=\"clanId\" value=\"{$_POST['clanId']}\">
+<input type=\"submit\" value=\"Editar Nome da Ally\"></form>"; 
+
+
+?>
+<a href="./principal.php?t=ally.php">Voltar ao Menu de Allyes</a>

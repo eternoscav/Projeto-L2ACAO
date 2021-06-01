@@ -1,0 +1,11 @@
+<?php
+
+$L2JBS_config["mysql_host"]="localhost";	// MySQL IP
+$L2JBS_config["mysql_port"]=3306;		// MySQP port
+$L2JBS_config["mysql_db"]="l2acaopvp";		// l2jnet_db or your lineage 2 server database name
+$L2JBS_config["mysql_login"]="root";		// MySQL Login name	
+$L2JBS_config["mysql_password"]="3427821";		// MySQL Password
+
+include("_config_procs.php");
+error_reporting(0);
+?>
